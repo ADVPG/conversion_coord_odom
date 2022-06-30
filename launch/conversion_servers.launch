@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    
+    <node pkg="conversion_coord_odom" type="coord_to_odom_server" name="coord_to_odom_server" output="screen"/>
+    <node pkg="conversion_coord_odom" type="odom_to_coord_server" name="odom_to_coord_server" output="screen"/>
+  
+</launch>
